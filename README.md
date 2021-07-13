@@ -11,7 +11,10 @@ Cocoapods
 pod NetworkLibsCombine
 ```
 SPM
-Copy `https://github.com/mazmik25/NetworkLibsCombine.git` to you SPM dependecies
+Copy this to your SPM dependecies 
+```
+https://github.com/mazmik25/NetworkLibsCombine.git
+``` 
 
 ## Usage
 First of all, you need to setup your HTTP client. It's all available by subclassing `NetworkClientConfig`
