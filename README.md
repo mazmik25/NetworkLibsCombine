@@ -6,11 +6,25 @@ Network utiliser using Combine and URLSession
 - Swift 5.0
 
 ## Installation
-Cocoapods
+### Cocoapods
 ```ruby
 pod NetworkLibsCombine
 ```
-SPM
+### Carthage
+- Create the `Cartfile`
+```ruby
+touch Cartfile && open -a Xcode Cartfile
+```
+- Next step is to add the dependency
+```ruby
+github "mazmik25/NetworkLibsCombine.git" "main"
+```
+- After that, you can run `carthage update`. If you don't have carthage, install it through Homebrew by running this line `brew install carthage`. **Disclaimer**: as you run `carthage update`, you will get the warnings. For now, just ignore them. It will be fixed later.
+- Finally, you can add the dependency as a Framework.
+<img width="971" alt="image" src="https://user-images.githubusercontent.com/25825451/125402309-74fe4d80-e3de-11eb-8725-d0c2bab88fe2.png">
+And you're good to go!
+
+### SPM
 ```ruby
 # Copy this to your SPM dependecies 
 https://github.com/mazmik25/NetworkLibsCombine.git
