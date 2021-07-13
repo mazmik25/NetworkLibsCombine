@@ -6,10 +6,12 @@ Network utiliser using Combine and URLSession
 - Swift 5.0
 
 ## Installation
-Cocoapods:
+Cocoapods
 ```ruby
 pod NetworkLibsCombine
 ```
+SPM
+Copy `https://github.com/mazmik25/NetworkLibsCombine.git` to you SPM dependecies
 
 ## Usage
 First of all, you need to setup your HTTP client. It's all available by subclassing `NetworkClientConfig`
