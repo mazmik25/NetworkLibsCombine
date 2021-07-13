@@ -26,10 +26,6 @@ let package = Package(
             name: "NetworkLibsCombine",
             dependencies: [],
             path: "NetworkLibsCombine/Source/"
-        ),
-        .testTarget(
-            name: "NetworkLibsCombineTests",
-            dependencies: ["NetworkLibsCombine"]
-        ),
+        )
     ]
 )
