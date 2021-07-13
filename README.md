@@ -11,8 +11,8 @@ Cocoapods
 pod NetworkLibsCombine
 ```
 SPM
-Copy this to your SPM dependecies 
-```
+```ruby
+# Copy this to your SPM dependecies 
 https://github.com/mazmik25/NetworkLibsCombine.git
 ``` 
 
