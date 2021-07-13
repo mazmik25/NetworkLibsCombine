@@ -1,5 +1,5 @@
 # NetworkLibsCombine
-Network utiliser using Combine and URLSession. Really fit with Reactive Programming architecture.
+Network utiliser using Combine and URLSession
 
 ## Prerequisites
 - Requires iOS 13.0 and higher
