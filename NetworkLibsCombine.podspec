@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NetworkLibsCombine"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A small framework to monitor network changes in Swift."
   spec.description  = <<-DESC
                     Network utiliser using Combine and URLSession. Really fit with Reactive Programming architecture.
