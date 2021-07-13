@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         let client: NetworkHTTPClient = NetworkHTTPClient<GetMoviesBodyResponse>(
             config: Config.getMovies(
                 parameters: [
-                    "api_key" : "44755119354772a89e87cfd9ccef85f3",
+                    "api_key" : "API_KEY",
                     "page": 1
                 ]
             )
